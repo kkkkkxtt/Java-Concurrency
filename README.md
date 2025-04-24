@@ -56,13 +56,13 @@ ATC     : Plane P1 granted landing permission. Current queue size: 0
 ...
 
 ## Concurrency Techniques Used
-Semaphore -	Manage limited resources (runway, gates)
+`Semaphore` -	Manage limited resources (runway, gates)
 
-ReentrantLock -	Ensure thread-safe operations
+`ReentrantLock` -	Ensure thread-safe operations
 
-Condition -	Handle emergency prioritization
+`Condition` -	Handle emergency prioritization
 
-CountDownLatch -	Synchronize plane operations
+`CountDownLatch` -	Synchronize plane operations
 
 
 ## Class Structure
