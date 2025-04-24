@@ -30,12 +30,19 @@ Key concurrency features demonstrated:
 - **Concurrent Operations**: Multiple ground services operate simultaneously
 
 ## How to Run
-
-1. Compile all Java files:
+1. Clone the Repository:
+```bash
+git clone https://github.com/kkkkkxtt/Java-Concurrency.git
+```
+2. Navigate to the Project Directory:
+```bash
+cd Java-Concurrency
+```
+2. Compile all Java files:
 ```bash
 javac src/asiapacificairport/*.java
 ```
-2. Run this simulation
+3. Run this simulation
 ```bash
 java -cp src asiapacificairport.AirTrafficControlSystem
 ```
